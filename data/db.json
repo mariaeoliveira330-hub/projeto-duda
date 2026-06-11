@@ -1,1 +1,10 @@
-{"object":[]}
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "duda@email.com",
+      "password": "2704",
+      "name": "Duda"
+    }
+  ]
+}
