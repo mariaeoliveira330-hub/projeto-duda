@@ -1,0 +1,93 @@
+/* ===== CONTAINER ===== */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+/* ===== CARD DO FORMULÁRIO ===== */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 22rem;
+  padding: 2.5rem;
+  gap: 1rem;
+  background-color: var(--bg-card);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.4s ease;
+}
+
+/* ===== TÍTULO ===== */
+.form h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--text-heading);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== MENSAGEM DE ERRO ===== */
+.error {
+  color: var(--danger);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+/* ===== INPUTS ===== */
+.form input {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background-color: var(--bg-input);
+  color: var(--text-heading);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form input::placeholder {
+  color: var(--text-muted);
+}
+
+.form input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+/* ===== BOTÃO ===== */
+.form button {
+  padding: 0.75rem;
+  background-color: var(--accent);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.form button:hover {
+  background-color: var(--accent-hover);
+}
+
+.form button:active {
+  transform: scale(0.98);
+}
+
+/* ===== ANIMAÇÃO DE ENTRADA ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
