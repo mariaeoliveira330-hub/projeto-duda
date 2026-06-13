@@ -1,18 +1,16 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-
-import App from "../App";
-import { Login } from "../pages/Login/Login";
-import { Home } from "../pages/Home/Home";
-import { Motos } from "../pages/Motos/Motos";
-import { Veiculos } from "../pages/Veiculos/Veiculos";
-import { PrivateRoute } from '../Componentes/PrivateRoute/PrivateRoute'
-import { NotFound } from "../pages/NotFound/NotFound";
+import { Routes, Route, Navigate } from 'react-router-dom';
+import App from '../App';
+import { Login } from '../pages/Login/Login';
+import { Home } from '../pages/Home/Home';
+import { Motos } from '../pages/Motos/Motos';
+import { Veiculos } from '../pages/Veiculos/Veiculos';
+import { NotFound } from '../pages/NotFound/NotFound';
+import { PrivateRoute } from '../components/PrivateRoute/PrivateRoute';
 
 export function AppRoutes() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
-
 
       <Route element={<PrivateRoute />}>
         <Route element={<App />}>
@@ -22,7 +20,7 @@ export function AppRoutes() {
         </Route>
       </Route>
 
-      <Route path="/" element={<Navigate to="/Home" replace />} />
+      <Route path="/" element={<Navigate to="/home" replace />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

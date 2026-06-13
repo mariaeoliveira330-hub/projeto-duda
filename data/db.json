@@ -3,28 +3,197 @@
     {
       "id": "1",
       "email": "duda@email.com",
-      "password": "2704",
+      "password": "12345",
       "name": "Duda"
     }
   ],
-  "motos":[
+  "motos": [
     {
       "id": "1",
       "marca": "Royal Enfield",
+      "modelo": "Shotgun 650",
+      "cilindrada": 650,
+      "preco": 45000,
+      "imagem": "https://royal-api.s3-sa-east-1.amazonaws.com/Product/ProductImage/d-shotgun650-stencilwhite.webp"
+    },
+    {
+      "id": "2",
+      "marca": "BMW",
+      "modelo": "R 1300 GS Trophy 2025",
+      "cilindrada": 1300,
+      "preco": 120000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/12716/comprar-trophy_25e7c0b8a8.png"
+    },
+    {
+      "id": "3",
+      "marca": "Royal Enfield",
+      "modelo": "Guerrilla 450",
+      "cilindrada": 450,
+      "preco": 38000,
+      "imagem": "https://royal-api.s3-sa-east-1.amazonaws.com/Product/ProductImage/d-guerrilla-brava-blue.webp"
+    },
+    {
+      "id": "4",
+      "marca": "BMW",
+      "modelo": "R 18 Blacked Out 2025",
+      "cilindrada": 1800,
+      "preco": 135000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/13480/comprar-blacked-out_77ad817cc5.png"
+    },
+    {
+      "id": "5",
+      "marca": "Royal Enfield",
+      "modelo": "Himalayan 450",
+      "cilindrada": 450,
+      "preco": 42000,
+      "imagem": "https://royal-api.s3-sa-east-1.amazonaws.com/Product/ProductImage/d-himalayan450-hanleblack.webp"
+    },
+    {
+      "id": "6",
+      "marca": "BMW",
+      "modelo": "R 1300 GS 2025",
+      "cilindrada": 1300,
+      "preco": 110000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/12180/comprar-vermelho_2ca9465892.png"
+    },
+    {
+      "id": "7",
+      "marca": "Royal Enfield",
+      "modelo": "Continental GT 650",
+      "cilindrada": 650,
+      "preco": 47000,
+      "imagem": "https://royal-api.s3-sa-east-1.amazonaws.com/Product/ProductImage/d-continental-slipstreamblue.webp"
+    },
+    {
+      "id": "8",
+      "marca": "BMW",
+      "modelo": "F 800 GS 2025",
+      "cilindrada": 800,
+      "preco": 75000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/12707/comprar-azul_6bc8a39f73.png"
+    },
+    {
+      "id": "9",
+      "marca": "Royal Enfield",
       "modelo": "Hunter 350",
-      "cilindrada": 350, 
-      "preco": 1999,
-      "imagem": ""
+      "cilindrada": 350,
+      "preco": 28000,
+      "imagem": "https://royal-api.s3-sa-east-1.amazonaws.com/Product/ProductImage/d-hunter350-rio-white.webp"
+    },
+    {
+      "id": "10",
+      "marca": "BMW",
+      "modelo": "R 1300 GS Triple Black 2025",
+      "cilindrada": 1300,
+      "preco": 115000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/12744/comprar-triple-black_75589097dd.png"
+    },
+    {
+      "id": "11",
+      "marca": "Royal Enfield",
+      "modelo": "Bear 650",
+      "cilindrada": 650,
+      "preco": 46000,
+      "imagem": "https://royal-api.s3-sa-east-1.amazonaws.com/Product/ProductImage/d-bear-650two-four-nine.webp"
+    },
+    {
+      "id": "12",
+      "marca": "BMW",
+      "modelo": "R 12 2025",
+      "cilindrada": 1200,
+      "preco": 95000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/13481/comprar-preto_ecf2c5a94f.png"
+    },
+    {
+      "id": "13",
+      "marca": "Royal Enfield",
+      "modelo": "Super Meteor 650",
+      "cilindrada": 650,
+      "preco": 50000,
+      "imagem": "https://royal-api.s3-sa-east-1.amazonaws.com/Product/ProductImage/d-supermeteor-astralblack.webp"
+    },
+    {
+      "id": "14",
+      "marca": "BMW",
+      "modelo": "C 400 X 2025",
+      "cilindrada": 400,
+      "preco": 45000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/12769/comprar-preto_74db086c09.png"
+    },
+    {
+      "id": "15",
+      "marca": "Royal Enfield",
+      "modelo": "Interceptor 650",
+      "cilindrada": 650,
+      "preco": 44000,
+      "imagem": "https://royal-api.s3-sa-east-1.amazonaws.com/Product/ProductImage/d-interceptor-barcelonablue.webp"
+    },
+    {
+      "id": "16",
+      "marca": "BMW",
+      "modelo": "R 1300 GS Option 719 Tramutana 2025",
+      "cilindrada": 1300,
+      "preco": 125000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/12751/comprar-option-719_09d489a053.png"
+    },
+    {
+      "id": "17",
+      "marca": "BMW",
+      "modelo": "R12 2024",
+      "cilindrada": 1200,
+      "preco": 90000,
+      "imagem": "https://production.autoforce.com/uploads/version/profile_image/11340/comprar-r12-preto-storm-metalizado_5495313c2b.png"
+    },
+    {
+      "marca": "Triumph ",
+      "modelo": "Bonneville Bobber 1200",
+      "cilindrada": 1200,
+      "preco": 73000,
+      "imagem": "https://fcr-original.com/wp-content/uploads/2023/05/FCR-bobber-TRIUMPH-1200-BOBBER-01-1-1280x905.webp",
+      "id": "vhfxxfNPDGU"
     }
   ],
-  "veiculos":[
-       {
-      "id": "1",
-      "marca": "Honda", 
-      "modelo": "HRV",
-      "ano": 2020, 
-      "preco": 14000,
-      "imagem": ""
+  "veiculos": [
+    {
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2023,
+      "preco": 144000,
+      "imagem": "https://www.honda.com.br/automoveis/sites/hab/files/2023-06/1920x700_desktop.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2024,
+      "preco": 155000,
+      "imagem": "https://media.toyota.com.br/ac6fefc0-c419-457e-bba7-0d1b7938e3ca.jpeg"
+    },
+    {
+      "id": "3",
+      "marca": "Toyota",
+      "modelo": "Yaris",
+      "ano": 2024,
+      "preco": 115000,
+      "imagem": "https://media.toyota.com.br/65ac5532-8fa0-4b0d-8960-53726d0ad9f4.jpeg"
+    },
+    {
+      "marca": "Volkswagen",
+      "modelo": "Tera",
+      "ano": 2024,
+      "preco": 125000,
+      "imagem": "https://carsoul.com.br/wp-content/uploads/2025/06/tera_outfit_galeria1-1024x576.jpg",
+      "id": "4"
+    },
+    {
+      "marca": "Ford",
+      "modelo": "Maverick",
+      "ano": 2024,
+      "preco": 209900,
+      "imagem": "https://s3.amazonaws.com/cka-dash/083-1023-FOC23163/model2.png",
+      "id": "SJKpHOjqZdc"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
